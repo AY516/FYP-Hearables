@@ -5,18 +5,18 @@ The project aims to develop an inverse transfer function to map the In-ear micro
 
 
 The key functions are as follows:
-BWE.m : Artificial Bandwidth Extension Function.m
-BWE_main.m : Executable code for BWE.m
+1)  BWE.m : Artificial Bandwidth Extension Function.m
+2)  BWE_main.m : Executable code for BWE.m
 
-phoneme_cluster.m : Phoneme-mapping Transfer Function
-batchTF.m : Baseline Spectral Gain Transfer function. 
+3)  phoneme_cluster.m : Phoneme-mapping Transfer Function
+4)  batchTF.m : Baseline Spectral Gain Transfer function. 
 
 phoneme_cluster.m outputs comparision of both the baseline and the phoneme-mapping transfer function
 
-Note: "v_" prefix code is adapted from VOICEBOX[1].
 
+Note: "v_" prefix code is adapted from VOICEBOX[1].
 vad.m ,overlapadd2.m, segment.m, RemoveSilence.m and LogSpectralDistortion.m adapted from MathWork FileExchange.[2]
 
+References
 [1] Mike Brookes.  VOICEBOX: Speech Processing Toolbox for MATLAB, 2011.  retrieved on 8 June 2020 from:http://www.ee.ic.ac.uk/hp/staff/dmb/voicebox/voicebox.html.
-
 [2] Esfandiar Zavarehei. Log spectral distance - silence removal, 2020. retrieved from MATLAB Central File  Exchange,https://www.mathworks.com/matlabcentral/fileexchange/9998-log-spectral-distance.
