@@ -14,7 +14,7 @@ The key functions are as follows:
 phoneme_cluster.m outputs comparision of both the baseline and the phoneme-mapping transfer function
 
 
-Note: "v_" prefix code is adapted from VOICEBOX[1].
+Note: "v_" prefix code is adapted from VOICEBOX [1].
 
 vad.m ,overlapadd2.m, segment.m, RemoveSilence.m and LogSpectralDistortion.m adapted from MathWork FileExchange.[2]
 
